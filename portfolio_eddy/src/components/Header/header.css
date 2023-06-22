@@ -1,0 +1,31 @@
+.header {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-list li {
+    margin-right: 10px;
+  }
+  
+  .nav-list li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-list li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .nav-list li a:hover {
+    color:  crimson;
+  }
+  
