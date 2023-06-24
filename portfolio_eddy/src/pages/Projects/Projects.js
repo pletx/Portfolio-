@@ -6,20 +6,16 @@ import P8img from '../../assets/images/Capture-P8.webp'
 import P4img from '../../assets/images/Capture-P4.webp'
 function Projects() {
   const projects = [
-    {title: 'Projet 1',
-      description: 'Description du projet 1',
+    {title: 'Projet Ohmyfood',
+      description: "Front end d'un site de résèrvation de réstaurant pour l'agence fictive homyfood",
       technology: ['HTML', 'CSS']    ,
       link: "https://pletx.github.io/Homyfood",
       backgroundImage:P4img},
 
-    {title: 'Projet 2',
-      description: 'Description du projet 2',
-      technology: ['HTML','CSS', 'JS'],
-      backgroundImage:P6img},
-
-    {title: 'Projet 3',
-      description: 'Description du projet 3',
+    {title: 'Projet Kasa',
+      description: "Application de présentation de chambre à résèrver pour l'agence fictive Kasa  ",
       technology: ['HTML','CSS','React'],
+      link:'https://kasa-plum.vercel.app/',
       backgroundImage:P8img
     },
   ];
@@ -27,7 +23,8 @@ function Projects() {
   return (
     <section className='projects-background'>
       <div id="projects">
-        <h2>Projects</h2>
+        <h2>Projets web</h2>
+        <p>Mon portfolio présente mes projets précédents et je suis disponible pour discuter de toute collaboration ou opportunité professionnelle. N'hésitez pas à me contacter pour en savoir plus sur mon travail ou discuter de vos projets web.</p>
         <div className="card-container">
           {projects.map((project, index) => (
             <Card

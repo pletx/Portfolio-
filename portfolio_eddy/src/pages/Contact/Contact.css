@@ -37,26 +37,47 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #fff;
+  background-color: #dedbdb;
   border: none;
   border-radius: 8px;
   padding: 20px;
   margin: 10px;
   cursor: pointer;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  width: 20%;
 }
 
 .contact-button:hover {
   transform: scale(1.1);
 }
+.contact-button.tiktok:hover{
+  background-color: black;
+}
+.contact-button.tiktok:hover .contact-icon {
+ color: rgb(255, 255, 255);
+}
+.contact-button.instagram:hover{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+
+}
+.contact-button.instagram:hover .contact-icon {
+ color: rgb(255, 255, 255);
+}
+
+.contact-button.email:hover{
+  background: linear-gradient(to bottom top, #223ef1, #df0808,#08df49);
+}
+.contact-button.email:hover .contact-icon {
+  color: #f12222;
+}
 
 .contact-icon {
   font-size: 24px;
-  color: #333;
+  color: #000000;
   margin-bottom: 10px;
 }
 
 .contact-label {
   font-size: 14px;
-  color: #666;
+  color: #3a3a3a;
 }

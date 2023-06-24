@@ -1,0 +1,59 @@
+.technology-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .technology-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 10px;  
+    margin-right: 10px;
+    background-color: #ffffff;
+    overflow: hidden;
+    border-radius: 1em;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #033c98;
+    animation: fillProgress 2s ease-in-out forwards;
+  }
+  
+  .progress-percent {
+    width: 10%;
+    display: flex;
+  }
+  
+  @keyframes fillProgress {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: var(--progress-percent);
+    }
+  }
+  
+  .technology-icon.icon-html {
+    background-color: #f12222;
+  }
+  
+  .technology-icon.icon-css {
+    background-color: #2229f1;
+  }
+  
+  .technology-icon.icon-react {
+    background-color: #22aff1;
+  }
+  
+  .technology-icon.icon-js {
+    background-color: #c4c701;
+  }
