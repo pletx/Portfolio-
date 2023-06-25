@@ -19,7 +19,7 @@ function Home() {
             <p>
               Je suis développeur web Front-end. Je suis spécialisé dans la création de sites web modernes et intuitifs, en utilisant les dernières technologies et les bonnes pratiques de développement.
             </p>
-            <a href="../../assets/my-cv.pdf">
+            <a href={process.env.PUBLIC_URL + '/mon-cv.pdf'} download>
               Télécharger mon CV
             </a>
           </div>

@@ -8,6 +8,7 @@
 .contact-section {
   position: absolute;
   left: 0;
+  width: 100%;
   background-color: #f8f8f8;
   text-align: center;
   background: linear-gradient(to bottom right, #f12222, #3e08df);
