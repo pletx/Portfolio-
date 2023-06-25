@@ -7,7 +7,7 @@ import P4img from '../../assets/images/Capture-P4.webp'
 function Projects() {
   const projects = [
     {title: 'Projet Ohmyfood',
-      description: "Front end d'un site de résèrvation de réstaurant pour l'agence fictive homyfood",
+      description: "Front end d'un site de résèrvation de réstaurant pour l'agence fictive Ohmyfood",
       technology: ['HTML', 'CSS']    ,
       link: "https://pletx.github.io/Homyfood",
       backgroundImage:P4img},
@@ -24,7 +24,7 @@ function Projects() {
     <section className='projects-background'>
       <div id="projects">
         <h2>Projets web</h2>
-        <p>Mon portfolio présente mes projets précédents et je suis disponible pour discuter de toute collaboration ou opportunité professionnelle. N'hésitez pas à me contacter pour en savoir plus sur mon travail ou discuter de vos projets web.</p>
+        <p>Mon portfolio présente mes projets précédents.</p>
         <div className="card-container">
           {projects.map((project, index) => (
             <Card

@@ -1,33 +1,69 @@
-.collapse{
-margin: 30px;
-font-size: 24px;  
+.collapse {
+  margin: 30px;
+  font-size: 24px;
+}
 
+.collapse p {
+  margin: 0;
 }
-.collapse p{
-    margin: 0;
+
+.collapse-header {
+  position: relative;
+  display: flex;
+  border-radius: 10px 10px 0px 0px;
+  justify-content: space-between;
+  margin-left: auto;
+  cursor: pointer;
 }
-.collapse-header{
+
+.collapse img {
+  position: relative;
+  right: 0;
+  width: 24px;
+  height: 15px;
+  align-self: center;
+}
+
+.title {
+  position: relative;
+  color: white;
+  width: 100%;
+}
+.textTitle{
+    display: none;
+}
+.collapsetxt {
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.26);
+}
+
+@media (max-width: 792px) {
+  .collapse {
+    margin: 20px;
+    font-size: 18px;
+  }
+
+.textTitle{display: flex;
+    text-align: center;}
+    .title {
+        width: fit-content;
+      }
+  .collapse-header {
+    border-radius: 10px;
+    margin-left: 0;
+    background-color: rgba(0, 0, 0, 0.098);
+  }
+
+  .collapsetxt {
+    padding: 15px;
+  }
+  .collapse img {
     position: relative;
-    display: flex;
-    border-radius: 10px 10px 0px 0px;
-    justify-content: space-between;
-    margin-left: auto; 
-    cursor: pointer; 
-}
-.collapse img{
-    position: relative;
+    margin: 5px;
     right: 0;
     width: 24px;
     height: 15px;
     align-self: center;
-}
-.title{
-    position: relative;
-    color: white;
-    width: 100%;
-}
-.collapsetxt{
-    color: rgb(255, 255, 255);
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.26);
+  }
 }
