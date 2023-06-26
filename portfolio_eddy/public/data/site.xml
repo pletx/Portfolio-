@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+  <title>Mon Site React</title>
+  <description>Un exemple de site React</description>
+  <menu>
+    <item>
+      <name>Accueil</name>
+      <url>/</url>
+    </item>
+    <item>
+      <name>À propos</name>
+      <url>/about</url>
+    </item>
+    <item>
+      <name>Projets</name>
+      <url>/projects</url>
+    </item>
+    <item>
+      <name>Contact</name>
+      <url>/contact</url>
+    </item>
+  </menu>
+</site>

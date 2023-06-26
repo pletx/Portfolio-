@@ -36,7 +36,7 @@ function About() {
             <Collapse
               title={<TechnologyIcon iconclassName='icon-react' icon={<FaReact/>} progress={70} />}
               textTitle={"React"}
-              children={"J'utilise React et Redux pour la création d'interfaces utilisateur réactives et performantes. Avec React, je suis capable de construire des composants réutilisables et d'organiser efficacement la structure de mes applications web. En combinant React avec Redux, j'ai la capacité de gérer un état global de l'application de manière prévisible et maintenable. J'utilise les actions et les reducers pour gérer les modifications de l'état et assurer une gestion fluide des données. Je suis à l'aise avec les concepts clés de React et Redux. Je reste constamment à jour avec les nouvelles fonctionnalités et les bonnes pratiques de React et Redux, en suivant la documentation officielle et les ressources communautaires."}
+              children={"J'utilise React et Redux pour la création d'interfaces utilisateur réactives et performantes. Avec React, je suis capable de construire des composants réutilisables et d'organiser efficacement la structure de mes applications web. En combinant React avec Redux, j'ai la capacité de gérer un état global de l'application de manière prévisible et maintenable. Je suis à l'aise avec les concepts clés de React et Redux. Je reste constamment à jour avec les nouvelles fonctionnalités et les bonnes pratiques de React et Redux, en suivant la documentation officielle et les ressources communautaires."}
             />
           </div>
         </div>

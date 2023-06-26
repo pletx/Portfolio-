@@ -1,7 +1,6 @@
 import React from 'react';
 import Card from '../../components/Cards/Card';
 import "./Projects.css"
-import P6img from '../../assets/images/Capture-P6.webp'
 import P8img from '../../assets/images/Capture-P8.webp'
 import P4img from '../../assets/images/Capture-P4.webp'
 function Projects() {
@@ -18,6 +17,7 @@ function Projects() {
       link:'https://kasa-plum.vercel.app/',
       backgroundImage:P8img
     },
+    
   ];
 
   return (
