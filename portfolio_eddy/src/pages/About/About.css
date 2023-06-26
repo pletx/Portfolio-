@@ -1,11 +1,12 @@
 #about {
-  position: relative;
   text-align: center;
   padding: 50px;
   color: white;
 }
 
 .about-background {
+  
+  position: absolute;
   left: 0;
   width: 100%;
   height: 100%;

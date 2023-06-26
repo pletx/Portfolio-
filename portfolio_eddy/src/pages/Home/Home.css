@@ -1,4 +1,6 @@
 .home-background {
+  
+  position: absolute;
   padding-top: 25px; 
   height: 100%;
   left: 0;
