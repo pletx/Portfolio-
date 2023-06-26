@@ -17,7 +17,7 @@ function Home() {
           <div className='text-content'>
             <p>Bonjour! Je m'appelle <b>Tougon Eddy</b></p> 
             <p>
-              Je suis développeur web Front-end. Je suis spécialisé dans la création de sites web modernes et intuitifs, en utilisant les dernières technologies et les bonnes pratiques de développement.
+              Je suis développeur web Front-end. Je suis spécialisé dans la création de sites web modernes et intuitifs, en utilisant les dernières technologies et les bonnes pratiques de développement.Je suis à la recherche d'une première expèrience dans le domaine du web
             </p>
             <a href={process.env.PUBLIC_URL + '/mon-cv.pdf'} download>
               Télécharger mon CV

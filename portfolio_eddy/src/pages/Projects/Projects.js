@@ -9,13 +9,15 @@ function Projects() {
       description: "Front end d'un site de résèrvation de réstaurant pour l'agence fictive Ohmyfood",
       technology: ['HTML', 'CSS']    ,
       link: "https://pletx.github.io/Homyfood",
-      backgroundImage:P4img},
+      backgroundImage:P4img,
+      gitHublink:"https://github.com/pletx/Homyfood"},
 
     {title: 'Projet Kasa',
       description: "Application de présentation de chambre à résèrver pour l'agence fictive Kasa  ",
       technology: ['HTML','CSS','React'],
       link:'https://kasa-plum.vercel.app/',
-      backgroundImage:P8img
+      backgroundImage:P8img,
+      gitHublink:"https://github.com/pletx/Kasa"
     },
     
   ];
@@ -33,7 +35,8 @@ function Projects() {
               description={project.description}
               technologies={project.technology}  
               link={project.link}   
-              backgroundImage={project.backgroundImage}        
+              backgroundImage={project.backgroundImage}   
+              gitHublink={project.gitHublink}     
             />
           ))}
         </div>

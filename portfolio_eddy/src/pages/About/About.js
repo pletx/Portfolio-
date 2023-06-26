@@ -8,7 +8,7 @@ function About() {
   return (
     <section className="about-background">
       <div id="about">
-        <h2>A propos</h2>
+        <h2>Compétences</h2>
         <div className="about-content">
           
             En tant que développeur intégrateur web, je maîtrise les technologies clés du développement web telles que HTML, CSS, JavaScript, React, et Redux. Je reste constamment à jour avec les dernières tendances et technologies du domaine pour créer des expériences web optimales.
@@ -28,13 +28,13 @@ function About() {
             />
 
             <Collapse
-              title={<TechnologyIcon iconclassName='icon-js' icon={<FaJs/>} progress={80} />}
+              title={<TechnologyIcon iconclassName='icon-js' icon={<FaJs/>} progress={90} />}
               textTitle={"JS"}
               children={"Je possède de solides compétences en JavaScript, un langage de programmation polyvalent et puissant utilisé pour développer des fonctionnalités interactives et dynamiques sur les sites web. Je suis à l'aise avec les concepts fondamentaux de JavaScript. Je suis capable d'écrire un code JavaScript propre, modulaire et bien structuré, en suivant les bonnes pratiques de programmation. Je suis également compétent dans la gestion de l'état de l'application et la communication avec des API externes."}
             />
 
             <Collapse
-              title={<TechnologyIcon iconclassName='icon-react' icon={<FaReact/>} progress={70} />}
+              title={<TechnologyIcon iconclassName='icon-react' icon={<FaReact/>} progress={80} />}
               textTitle={"React"}
               children={"J'utilise React et Redux pour la création d'interfaces utilisateur réactives et performantes. Avec React, je suis capable de construire des composants réutilisables et d'organiser efficacement la structure de mes applications web. En combinant React avec Redux, j'ai la capacité de gérer un état global de l'application de manière prévisible et maintenable. Je suis à l'aise avec les concepts clés de React et Redux. Je reste constamment à jour avec les nouvelles fonctionnalités et les bonnes pratiques de React et Redux, en suivant la documentation officielle et les ressources communautaires."}
             />

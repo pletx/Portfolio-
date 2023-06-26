@@ -11,6 +11,32 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transform-origin: center;
 }
+.card-link{text-decoration: none;
+color: white;}
+.card-link:hover{text-decoration: underline;
+font-weight: 600;}
+
+.technology  {
+  width:fit-content;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+.technology-icons{
+  display: flex;
+  justify-content: center;
+ 
+}
+.technology-icons svg {
+  margin-top: 5px;
+  color: #fff;
+}
+.github-icon a{color: #fff;}
+.github-icon p{margin:0;
+  font-size: medium;
+  text-decoration: none;}
+.github-icon{font-size: xx-large;
+  color: white;}
+.github-icon:hover{color: orangered;}
 
 @media (min-width: 792px) {
   .card {
@@ -46,6 +72,4 @@
   transform: translateY(0);
 }
 
-.technology-icons svg {
-  margin: 5px;
-}
+
