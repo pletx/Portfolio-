@@ -8,7 +8,7 @@ function About() {
   return (
     <section className="about-background">
       <div id="about">
-        <h2>About</h2>
+        <h2>A propos</h2>
         <div className="about-content">
           
             En tant que développeur intégrateur web, je maîtrise les technologies clés du développement web telles que HTML, CSS, JavaScript, React, et Redux. Je reste constamment à jour avec les dernières tendances et technologies du domaine pour créer des expériences web optimales.
