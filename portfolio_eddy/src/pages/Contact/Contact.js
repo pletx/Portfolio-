@@ -17,8 +17,8 @@ function Contact() {
   };
 
   return (
-    <section className="contact-section">
-        <div  id="contact">
+    < div className="contact-background">
+        <section  id="contact">
       <h2 className="section-title">Contact</h2>
       <p className="section-description">
         
@@ -38,8 +38,8 @@ function Contact() {
           <span className="contact-label">TikTok</span>
         </button>
       </div>
-      </div>
-    </section>
+      </section>
+    </div>
   );
 }
 
