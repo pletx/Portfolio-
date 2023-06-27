@@ -5,13 +5,13 @@
 }
 
 .contact-background {
-  position: absolute;
+  position: fixed;
+ 
   left: 0;
   width: 100%;
   height: 100%;
   background: linear-gradient(to bottom right, #f122e7, #0cffa6);
 }
-
 .section-title {
   font-size: 28px;
   font-weight: bold;

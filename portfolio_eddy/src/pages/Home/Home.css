@@ -1,17 +1,15 @@
 .home-background {
-  
-  position: absolute;
-  padding-top: 25px; 
-  height: 100%;
+  position: fixed;
   left: 0;
-  color: white;
-  background-color: #f8f8f8;
+  width: 100%;
+  height: 100%;
   background: linear-gradient(to bottom left, #6315d7, #eb6a1a);
-  padding: 20px;
+ 
 }
 
 #home {
   justify-content: center;
+  color: #ffffff;
 }
 
 .profile-photo {
