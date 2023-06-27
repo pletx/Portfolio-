@@ -27,4 +27,7 @@
     flex-direction: column;
     align-items: center;
   }
+  .projects-background {
+    position: inherit;
+  }
 }
