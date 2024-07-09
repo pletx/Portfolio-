@@ -2,14 +2,13 @@
   text-align: center;
   padding: 50px;
   color: white;
+  background: linear-gradient(to bottom right, #f122e7, #0cffa6);
 }
 
 .contact-background {
-  left: 0;
-  position: absolute;
+  position: inherit;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom right, #f122e7, #0cffa6);
 }
 .section-title {
   font-size: 28px;
@@ -92,4 +91,4 @@
   color: #3a3a3a;
 }
 @media (max-width: 792px) {
-  .contact-background {position: absolute;}}
+  .contact-background {position: inherit;}}
