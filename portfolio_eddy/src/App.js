@@ -5,9 +5,9 @@ import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Projects from './pages/Projects/Projects';
 import Contact from './pages/Contact/Contact';
-import Header from './components/Footer/Header/header'
+import Header from './components/Header/header'
 import Error404 from './pages/404/404';
-
+import Footer from './components/Footer/Footer';
 function App() {
   return (
     <BrowserRouter>
@@ -20,6 +20,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Error404 />} />
         </Routes>
+        <Footer/>
       </div>
     </BrowserRouter>
   );

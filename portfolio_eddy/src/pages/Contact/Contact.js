@@ -8,14 +8,7 @@ function Contact() {
     window.location.href = 'mailto:eddytougon@gmail.com';
   };
 
-  const redirectToInstagram = () => {
-    window.open('https://www.instagram.com/plet.x/');
-  };
-
-  const redirectToTikTok = () => {
-    window.open('https://www.tiktok.com/@plet_x');
-  };
-
+  
   return (
     < div className="contact-background">
       <section id="contact">
@@ -28,14 +21,6 @@ function Contact() {
           <button className="contact-button email" onClick={sendEmail}>
             <AiOutlineMail className="contact-icon" />
             <span className="contact-label">E-mail</span>
-          </button>
-          <button className="contact-button instagram" onClick={redirectToInstagram}>
-            <FaInstagram className="contact-icon" />
-            <span className="contact-label">Instagram</span>
-          </button>
-          <button className="contact-button tiktok" onClick={redirectToTikTok}>
-            <FaTiktok className="contact-icon" />
-            <span className="contact-label">TikTok</span>
           </button>
         </div>
       </section>
