@@ -2,6 +2,7 @@
   text-align: center;
   padding: 50px;
   color: white;
+  min-height: 500px;
   background: linear-gradient(to bottom right, #f122e7, #0cffa6);
 }
 
