@@ -15,7 +15,7 @@ function Contact() {
         <h2 className="section-title">Contact</h2>
         <p className="section-description">
 
-          Pour me contacter, envoyez-moi un e-mail ou suivez-moi sur Instagram et TikTok :
+        N'hésitez pas à me contacter pour discuter de votre projet, poser des questions ou simplement obtenir un devis personnalisé. Je suis toujours disponible pour échanger et vous accompagner dans toutes les étapes de votre projet web.:
         </p>
         <div className="contact-buttons">
           <button className="contact-button email" onClick={sendEmail}>
