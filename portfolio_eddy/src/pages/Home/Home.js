@@ -10,8 +10,9 @@ function Home() {
   }, []);
 
   return (
+  <section id="home">
     <div className="home-background">
-      <section id="home">
+  
         <h1>Bienvenue sur mon Portfolio</h1>
         <div className={`home-content ${isVisible ? 'visible' : ''}`}>
           <div className='text-content'>
@@ -27,8 +28,9 @@ function Home() {
             <img className='profile-photo' src={profilePhoto} alt="Profile Photo" />
           </div>
         </div>
+        </div>
       </section>
-    </div>
+
   );
 }
 

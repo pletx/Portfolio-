@@ -9,9 +9,10 @@ function Contact() {
   };
 
   
-  return (
+  return ( 
+     <section id="contact">
     < div className="contact-background">
-      <section id="contact">
+    
         <h2 className="section-title">Contact</h2>
         <p className="section-description">
 
@@ -23,8 +24,9 @@ function Contact() {
             <span className="contact-label">E-mail</span>
           </button>
         </div>
+        </div>
       </section>
-    </div>
+    
   );
 }
 
