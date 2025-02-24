@@ -4,6 +4,7 @@ import "./Projects.css"
 import P8img from '../../assets/images/Capture-P8.webp'
 import P4img from '../../assets/images/Capture-P4.webp'
 import PCM from'../../assets/images/exterieur.webp'
+import Pcgt from'../../assets/images/Pcgt.png'
 function Projects() {
   const projects = [
     {
@@ -17,7 +18,7 @@ function Projects() {
     {
       title: 'Projet Cours Nogentais',
       description: "Front end et backend d'un site pour un Collège",
-      technology: ['HTML', 'CSS','React'],
+      technology: ['HTML', 'CSS','React' , 'Node.js'],
       link: "https://www.cours-nogentais.com",
       backgroundImage: PCM,
     },
@@ -28,6 +29,13 @@ function Projects() {
       link: 'https://kasa-plum.vercel.app/',
       backgroundImage: P8img,
       gitHublink: "https://github.com/pletx/Kasa"
+    },
+    {
+      title: 'Projet CGT DHL Express',
+      description: "Front end et backend d'un site pour Le syndicat CGT DHL",
+      technology: ['HTML', 'CSS','React','Node.js'],
+      link: "https://www.cgt-dhl-express.com",
+      backgroundImage: Pcgt,
     },
 
   ];

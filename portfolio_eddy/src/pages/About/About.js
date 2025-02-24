@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 import TechnologyIcon from '../../components/TechnologyIcon/TechnologyIcon';
-import { FaHtml5, FaCss3, FaReact, FaJs } from 'react-icons/fa';
+import { FaHtml5, FaCss3, FaReact, FaJs,FaNodeJs } from 'react-icons/fa';
 import Collapse from '../../components/collapse/Collapse';
 
 function About() {
@@ -31,6 +31,11 @@ function About() {
               title={<TechnologyIcon iconclassName='icon-react' icon={<FaReact />} progress={80} />}
               textTitle={"React"}
               children={"J'utilise React et Redux pour la création d'interfaces utilisateur réactives et performantes. Avec React, je suis capable de construire des composants réutilisables et d'organiser efficacement la structure de mes applications web. En combinant React avec Redux, j'ai la capacité de gérer un état global de l'application de manière prévisible et maintenable. Je suis à l'aise avec les concepts clés de React et Redux. Je reste constamment à jour avec les nouvelles fonctionnalités et les bonnes pratiques de React et Redux, en suivant la documentation officielle et les ressources communautaires."}
+            />
+             <Collapse
+              title={<TechnologyIcon iconclassName='icon-nodejs' icon={<FaNodeJs />} progress={70} />}
+              textTitle={"Node.js"}
+              children={"J'utilise Node.js pour développer des API backend, gérer des bases de données et créer des applications web complètes. Je suis à l'aise avec les concepts de base de Node.js, tels que les modules, les événements et les flux, et je suis capable d'écrire du code serveur efficace et maintenable."}
             />
           </div>
         </div>

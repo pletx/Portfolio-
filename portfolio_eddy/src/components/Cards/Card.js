@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaHtml5, FaCss3, FaReact, FaJs, FaGithub } from 'react-icons/fa';
+import { FaHtml5, FaCss3, FaReact, FaJs, FaGithub, FaNodeJs } from 'react-icons/fa';
 import './Card.css';
 import { Link } from 'react-router-dom';
 
@@ -19,6 +19,9 @@ function Card(props) {
         break;
       case 'JS':
         icon = <FaJs />;
+        break;
+      case 'Node.js':
+        icon = <FaNodeJs />;
         break;
       default:
         break;
